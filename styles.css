@@ -158,9 +158,8 @@ button{
     text-align: center;
 }
 .short-links{
-    background-color: var(--Gray);
+    background-color: #ddd;
     margin-top: 7rem;
-    height: 400px;
     overflow: visible;
 }
 .short-link-api{
@@ -204,20 +203,21 @@ input::placeholder{
 }
 .shortened-link{
     background-color: hsl(0, 0%, 100%);
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 90%;
-    height: 190px;
-    margin: .9rem auto;
+    height: 170px;
+    margin: 1.2rem auto;
+    transform: translateY(-65px);
 }
 .old-link{
-    padding: 1.5em 1.5em .9em 1.5em;
+    padding: 1.5em 1.5em 0 1.5em;
     color: var(--Very-Dark-Violet);
 }
 .new-link{
-    padding: .5em 1.5em 1.5em 1.5em;
+    padding: .3em 1.5em 1.5em 1.5em;
     border-top: 1px solid var(--Gray);
 }
 .new-link p{
@@ -230,4 +230,57 @@ input::placeholder{
     height: 45px;
     color: hsl(0, 0%, 100%);
     margin-top: .9rem;
+}
+.advanced-stat{
+    background-color: #ddd;
+    padding: 2em 5% 0 5%;
+    transform: translateY(-2em);
+}
+.advanced-stat h2{
+    color: var(--Very-Dark-Violet);
+    text-align: center;
+    font-size: 1.7rem;
+}
+.advanced-stat p{
+    padding-top: .9em;
+    color: var(--Grayish-Violet);
+    text-align: center;
+    line-height: 1.6;
+}
+.advanced-stat-cards{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 3rem auto;
+}
+.brand-recognition, .detailed-records, .fully-customizable{
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 1.5em 1.5em 0 1.5em;
+}
+.brand-recognition-info, .detailed-records-info, .fully-customizable-info{
+    transform: translateY(-40px);
+}
+.brand-recognition-icon, .detailed-records-icon, .fully-customizable-icon{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    transform: translateY(-60px);
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-recognition h3, .detailed-records h3, .fully-customizable h3{
+    color: var(--Very-Dark-Violet);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.blue-line{
+    width: 7px;
+    height: 80px;
+    background-color: var(--Cyan);
+    align-self: center;
 }
