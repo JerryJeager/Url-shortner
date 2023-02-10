@@ -20,6 +20,10 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+main{
+    height: 100vh;
 }
 header{
     padding: 1.5rem 5% 1.5rem 5%;
@@ -286,11 +290,45 @@ input::placeholder{
 .boost{
     background: linear-gradient(hsla(257, 27%, 26%, .9), hsla(257, 27%, 26%, .9)), url(images/bg-boost-mobile.svg) center/cover no-repeat;
     padding: 4em 5% 4em 5%;
-    height: 270px;
+    height: 300px;
     transform: translateY(-50px);
     text-align: center;
     color: hsl(0, 0%, 100%);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+footer{
+    background-color: var(--Very-Dark-Violet);
+    transform: translateY(-50px);
+    min-height: 70vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-contents{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-between;
+}
+.footer-logo{
+    margin-top: 2rem;
+}
+.footer-logo img{
+    filter: brightness(0) invert(1);
+}
+footer h3{
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 1.2rem;
+}
+footer p{
+    color: var(--Gray);
+    line-height: 1.6;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
 }
