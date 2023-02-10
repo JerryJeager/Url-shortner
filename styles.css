@@ -150,10 +150,10 @@ button{
     display: flex;
     justify-content: center;
 }
-.hero-info button{
+.get-started-btn button{
     background-color: var(--Cyan);
     border-radius: 30px;
-    height: 45px;
+    height: 50px;
     width: 200px;
     text-align: center;
 }
@@ -170,8 +170,7 @@ button{
     transform: translateY(-65px);
     height: 150px;
     border-radius: 10px;
-    background-color: var(--Dark-Violet);
-    background: linear-gradient(hsla(257, 27%, 26%, .7), hsla(257, 27%, 26%, .7)), url(images/bg-shorten-mobile.svg) center/cover no-repeat;
+    background: linear-gradient(hsla(257, 27%, 26%, .9), hsla(257, 27%, 26%, .9)), url(images/bg-shorten-mobile.svg) center/cover no-repeat;
     padding: 1.5em;
     display: flex;
     flex-direction: column;
@@ -233,7 +232,7 @@ input::placeholder{
 }
 .advanced-stat{
     background-color: #ddd;
-    padding: 2em 5% 0 5%;
+    padding: 2em 5% 3.5em 5%;
     transform: translateY(-2em);
 }
 .advanced-stat h2{
@@ -251,7 +250,7 @@ input::placeholder{
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: 3rem auto;
+    margin: 4rem auto;
 }
 .brand-recognition, .detailed-records, .fully-customizable{
     background-color:hsl(0, 0%, 100%);
@@ -283,4 +282,15 @@ input::placeholder{
     height: 80px;
     background-color: var(--Cyan);
     align-self: center;
+}
+.boost{
+    background: linear-gradient(hsla(257, 27%, 26%, .9), hsla(257, 27%, 26%, .9)), url(images/bg-boost-mobile.svg) center/cover no-repeat;
+    padding: 4em 5% 4em 5%;
+    height: 270px;
+    transform: translateY(-50px);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
