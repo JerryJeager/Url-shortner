@@ -58,7 +58,7 @@ shortLinkBtn.addEventListener('click', () => {
         console.log(longLink.value)
         shortLinks.innerHTML += `<div class="shortened-link">
                 <div class="old-link">
-                    <p>${oldLink}</p>
+                    <p>${longLink.value}</p>
                 </div>
                 <div class="new-link">
                     <p>${data}</p>
